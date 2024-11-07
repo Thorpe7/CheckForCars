@@ -7,6 +7,7 @@
 !src
 !README.md
 !requirements.txt
+!credentials.json
 
 # Re-ignore pycache which might be inside package dir
 **/__pycache__
