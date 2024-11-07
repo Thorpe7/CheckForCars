@@ -4,6 +4,9 @@ FROM python@sha256:2407c61b1a18067393fecd8a22cf6fceede893b6aaca817bf9fbfe65e3361
 ENV APPDIR="/App"
 WORKDIR ${APPDIR}
 
+ARG CAR_CHECK_API
+ENV CAR_CHECK_API=${CAR_CHECK_API}
+
 RUN apt-get update &&  \
     apt-get install --no-install-recommends -y git && \
     apt-get clean -y && \
