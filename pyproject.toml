@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.10"
 requests = "^2.32.3"
 sendgrid = "^6.11.0"
+beautifulsoup4 = "^4.12.3"
+selenium = "^4.26.1"
 
 
 [build-system]
